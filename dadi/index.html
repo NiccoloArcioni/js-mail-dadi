@@ -5,9 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
 
+    <div class="ms_container">
+        <!-- titolo e bottone -->
+        <h1>Che ne dici di una partita a dadi?</h1>
+        <input type="submit" id="submit" value="Tira i dadi">
+
+        <div class="ms_risultati">
+            <!-- dado utente -->
+            <div class="ms_dado_utente">
+                <h4 id="userDice"></h4>
+            </div>
+    
+            <!-- dado pc -->
+            <div class="ms_dado_pc">
+                <h4 id="pcDice"></h4>
+            </div>
+    
+            <!-- vincitore -->
+            <h2 id="winner"></h2>
+        </div>
+    </div>
 
     <script src="js/main.js"></script>
 </body>
