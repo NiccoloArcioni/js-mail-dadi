@@ -16,10 +16,18 @@
     margin: 15px 0;
 }
 
-.ms_error {
+.ms_error,
+i.far.fa-times-circle {
     color: red;
 }
 
-.ms_success {
+.ms_success,
+i.fas.fa-check {
     color: green;
+}
+
+i.fas.fa-check, 
+i.far.fa-times-circle {
+    display: none;
+    font-size: 4em;
 }
