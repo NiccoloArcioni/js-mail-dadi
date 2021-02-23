@@ -10,7 +10,7 @@
     text-align: center;
 }
 .ms_container input {
-    margin: 15px 0;
+    margin: 30px 0;
     padding: 10px 30px;
     font-size: 1.2em;
     font-weight: 700;
@@ -18,14 +18,13 @@
 
 .ms_risultati {
     width: 100%;
-    margin-top: 20px;
 }
 
 .ms_dado_utente, 
 .ms_dado_pc {
     display: inline-block;
     width: 45%;
-    height: 40px;
+    height: auto;
     text-align: center;
 }
 
