@@ -38,12 +38,12 @@ submit.addEventListener('click',
             document.getElementById('ms_success_check').style.display = 'block';
             document.getElementById('ms_error_cross').style.display = 'none';
             emailControll.className = "ms_success";
-            document.getElementById('ms_email').innerHTML = ("La tua email è presente nel nostro archivio. Puoi accedere");
+            emailControll.innerHTML = ("La tua email è presente nel nostro archivio. Puoi accedere");
         } else {
             document.getElementById('ms_success_check').style.display = 'none';
             document.getElementById('ms_error_cross').style.display = 'block';
             emailControll.className = "ms_error";
-            document.getElementById('ms_email').innerHTML = ("La tua email non è presente nel nostro archivio.");
+            emailControll.innerHTML = ("La tua email non è presente nel nostro archivio.");
         }
     }
 );
